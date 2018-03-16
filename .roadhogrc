@@ -1,0 +1,37 @@
+{
+  "entry": "src/entrys/*.js",
+  "multipage" : true,
+  "disableCSSModules": false,
+  "less": true,
+  "publicPath": "/",
+  "autoprefixer": null,
+  "theme": "./theme.config.js",
+  "externals": {
+      "$":"jquery",
+      "jQuery":"jquery",
+      "window.jQuery":"jquery"
+  },
+  "proxy": {
+      "/api": {
+      "target": {
+        "host":"127.0.0.1",
+        "protocol":"http:",
+        "port":8080
+       },
+      "changeOrigin": true,
+      "pathRewrite": { "^/api" : "/api" }
+    }
+  },
+  "extraBabelPlugins": [
+      "transform-runtime",
+      "transform-decorators-legacy",
+      ["import", { "libraryName": "antd", "libarayDirectory": "lib", "style": true }]
+  ],
+  "env": {
+    "development": {
+      "extraBabelPlugins": [
+        "dva-hmr"
+      ]
+    }
+  }
+}

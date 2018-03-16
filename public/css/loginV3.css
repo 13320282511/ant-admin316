@@ -1,0 +1,81 @@
+.m-login {
+    position: relative;
+    height: 100%;
+    background: url('../img/bg2.jpg') no-repeat center;
+}
+
+.m-login .head {height: 100px; line-height: 100px;color: #fff;font-size: 11px;border-bottom: 1px solid rgba(255, 255, 255, 0.1);}
+.m-login .head h1 {font-weight: lighter;}
+.m-login .content {width: 1170px; margin: 0 auto;padding: 0 15px;font-family: Lato, 'Microsoft YaHei';font-size: 200%;color: white;}
+
+
+
+          .g-wrap {
+              width: 1200px;
+              margin: 0 auto;
+          }
+
+.m-login .m-login-cont {
+
+    position: relative;
+    height: calc(100vh);
+}
+
+.m-login-form-wp {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 720px;
+    margin-left: -360px;
+    background-color: #fff;
+    opacity: 0.92;
+}
+
+.m-login-form-wp .bar {
+    background:url('../img/bar.jpg') repeat-x;
+    height: 3px;
+}
+
+.m-login-form-wp aside {
+    float: left;
+    width: 44%;
+    height: 360px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+}
+
+.m-login-form-wp aside ul {
+    padding: 80px 0 0 80px;
+}
+
+.m-login-form-wp aside ul li{
+    line-height: 30px;
+    font-size: 18px;
+    margin-bottom: 50px;
+
+}
+
+.m-login-form-wp aside ul li i{
+    font-size: 30px;
+    margin-right: 40px;
+    vertical-align: middle;
+}
+
+.m-login-form-wp article {
+    float: left;
+    width: 56%;
+    padding: 15px 40px;
+    font-size: 16px;
+}
+
+.m-login-form-wp article h2 {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+
+.g-full
+{
+    height: 40px !important;
+}

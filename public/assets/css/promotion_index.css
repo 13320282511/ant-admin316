@@ -1,0 +1,80 @@
+/* 代码整理：大头网 www.datouwang.com */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  background: #fff;
+  font: normal 12px/22px 宋体;
+}
+
+img {
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: #1974a1;
+}
+
+body {
+  min-width: 1280px;
+  overflow-x: auto;
+  font-family: "hiragino sans gb", "microsoft yahei", "wenquanyi micro hei", sans-serif;
+  color: #495d64
+}
+
+a {
+  color: #495d64;
+  cursor: pointer;
+  text-decoration: none
+}
+
+#browser_ie {
+  background-color: #f6f6b4;
+  display: none;
+  height: 85px;
+  color: #000;
+  font-size: 15px
+}
+
+#browser_ie .brower_info {
+  margin: 0px auto;
+  width: 800px;
+  padding-top: 12px
+}
+
+#browser_ie .brower_info .notice_info {
+  position: relative;
+  margin-top: 5px;
+  float: left
+}
+
+#browser_ie .brower_info .notice_info p {
+  text-align: left;
+  line-height: 25px;
+  width: 360px;
+  display: inline-block
+}
+
+#browser_ie .browser_list {
+  position: relative;
+  float: left
+}
+
+#browser_ie .browser_list img {
+  width: 40px;
+  height: 40px
+}
+
+#browser_ie .browser_list span {
+  text-align: center;
+  width: 80px;
+  display: inline-block
+}

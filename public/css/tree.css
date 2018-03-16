@@ -1,0 +1,16 @@
+.ant-tree li span.ant-tree-switcher.ant-tree-switcher_open:after {
+	display:none;
+}
+.ant-tree li span.ant-tree-switcher.ant-tree-switcher_open {
+	background: url(../img/minus.png) center center no-repeat;
+    background-size: 60%;
+}
+
+.ant-tree li span.ant-tree-switcher.ant-tree-switcher_close:after {
+	display:none;
+}
+.ant-tree li span.ant-tree-switcher.ant-tree-switcher_close {
+	background: url(../img/plus.png) center center no-repeat;
+    background-size: 60%;
+}
+

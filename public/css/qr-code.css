@@ -1,0 +1,16 @@
+.impowerBox {
+  margin-left: 25px;
+}
+.impowerBox .qrcode {
+  width: 70%;
+}
+.impowerBox .title {
+  text-align: center;
+  font-size: 20px;
+}
+.impowerBox .info {
+  width: 150px;
+}
+.impowerBox .status {
+  text-align: center;
+}

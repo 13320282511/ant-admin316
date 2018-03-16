@@ -1,0 +1,49 @@
+.search-bg
+{
+  height: calc(100vh);
+  width: 100%;
+  /*background:url("../img/search-bg.png") center no-repeat;*/
+  background:url("../img/search-bg.png") center;
+}
+
+.search-inner
+{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width:600px;
+  height:150px;
+  margin-left:-300px;
+  margin-top:-150px;
+}
+
+.global-search-wrapper {
+  padding-right: 50px;
+  margin-top: 30px;
+}
+
+.global-search {
+  width: 100%;
+}
+
+.global-search.ant-select-auto-complete .ant-select-selection--single {
+  margin-right: -46px;
+}
+
+.global-search.ant-select-auto-complete .ant-input-affix-wrapper .ant-input:not(:last-child) {
+  padding-right: 62px;
+}
+
+.global-search.ant-select-auto-complete .ant-input-affix-wrapper .ant-input-suffix {
+  right: 0;
+}
+
+.global-search.ant-select-auto-complete .ant-input-affix-wrapper .ant-input-suffix button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.global-search-item-count {
+  position: absolute;
+  right: 16px;
+}

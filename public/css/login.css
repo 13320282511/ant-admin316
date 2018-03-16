@@ -1,0 +1,51 @@
+.login-cly .fl {float: left}
+.login-cly .fr {float: right}
+.login-cly .onefirst {margin-top: 28px;}
+.login-cly .ant-input  {height:37px;width: 280px;margin-left:32px; }
+.login-cly p {text-align: center}
+.login-cly .mainBody {width: 680px;margin: 0 auto;height:370px; opacity: 0.93}
+.login-cly .content {width: 1170px;margin: 0 auto;padding: 0 15px;font-family: Lato, 'Microsoft YaHei';font-size: 200%;color: white;}
+.login-cly .head {margin-bottom: 6.2%;line-height: 100px;color: #fff;font-size: 11px;border-bottom: 1px solid rgba(255, 255, 255, 0.1);}
+.login-cly .head h1 {font-weight: lighter;}
+.login-cly .bodyLeft {height: 369px;border-radius: 5px 0 0 5px;overflow: hidden}
+.login-cly .bodyRight {width: 360px;height:369px;border: 1px solid #D9D9D9; border-radius: 0 5px 5px 0;background: #fff;}
+.login-cly .ant-tabs-tab {margin: 0 6px!important;width: 48%!important;padding:13px 20px!important; }
+.login-cly .bodyRight .erweima {margin: 20px auto;display: block; }
+.login-cly .ant-tabs-nav {height: 45px;color:#FF9500;text-align: center;width: 100%}
+.login-cly .tablogin {width: 213px;margin-left:62px;height:37px; margin-bottom: 15px;background: url("../newlogin/dl_an.png") no-repeat center;text-align: center;line-height: 37px;color: #fff;font-size: 15px;cursor: pointer;}
+.login-cly .tabfooter {width: 280px;margin-left:32px;height:37px;}
+.login-cly .help {display: inline-block;}
+.login-cly .phoneone {margin-top:28px; }
+.login-cly .phoneNum {width:135px!important; margin-left: 0;}
+.login-cly .yanzheng {width: 102px;margin-left: 5px;height: 37px;display: block;background:#FF9500;border: 1px #FF9500 solid; }
+.login-cly .yanzheng:hover {background:#EA0502;border: 1px #EA0502 solid;}
+.login-cly .ant-tabs-ink-bar {background-color:#EA0502; }
+.login-cly .ant-tabs-tab-active {color:#EA0502!important;}
+.login-cly .ant-tabs-tab:hover {color:#EA0502!important;}
+.login-cly .phoneNum1 {margin-left: 32px;}
+.login-cly {height: 100vh;overflow: hidden}
+.login-cly .phonetwo {margin-bottom: 26px;height: 37px!important;}
+.login-cly .ant-input-group-addon {height: 37px!important;display: block;float: left;width: 37px;line-height: 37px;padding: 0;}
+.login-cly {background: url("../newlogin/bg3.jpg") no-repeat center;background-attachment:fixed;background-size:cover;-moz-background-size:cover;-webkit-background-size:cover;}
+.login-cly .footer {position: fixed;bottom: 0;color: #ccc;border-top: 1px solid rgba(255, 255, 255, 0.1);height: 80px;width: 100%;}
+.login-cly .footer .footer1st {height: 80px;line-height: 80px;font-size: 13px;font-weight: 400;}
+.login-cly .footer .footer2rd {height: 80px;line-height: 80px;font-size: 13px;font-weight: 400;}
+.login-cly .footerbot {margin-left: 20px;transition: none;  font-size: 13px;  font-weight: 400;  color: white;}
+.login-cly .ant-form-explain {text-align: center;}
+.login-cly .smspwd {margin-bottom: 26px;}
+@-moz-keyframes spin {
+  0% { -moz-transform:rotate(0deg); }
+  100% { -moz-transform:rotate(360deg); }
+}
+@-moz-keyframes spinoff {
+  0% { -moz-transform:rotate(0deg); }
+  100% { -moz-transform:rotate(-360deg); }
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform:rotate(0deg); }
+  100% { -webkit-transform:rotate(360deg); }
+}
+@-webkit-keyframes spinoff {
+  0% { -webkit-transform:rotate(0deg); }
+  100% { -webkit-transform:rotate(-360deg); }
+}
