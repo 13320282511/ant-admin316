@@ -6,6 +6,10 @@ import style from './login.less';
 const FormItem = Form.Item;
 
 class NormalLoginForm extends React.Component {
+  constructor() {
+    super()
+  }
+
   handleSubmit = (e) => {
     e.preventDefault();
     this.props.form.validateFields((err, values) => {
@@ -23,21 +27,21 @@ class NormalLoginForm extends React.Component {
         <div className={style["login-wrap"]}>
           <div className={style["login-inner"]}>
             <div className={style["login-logo"]}></div>
-            <Form onSubmit={this.handleSubmit} className="login-form"
+            <Form onSubmit={this.handleSubmit} className={`login-form ${style['login-form-zj']}`}
                   style={{paddingLeft: '20px', paddingRight: '20px'}}>
-              <FormItem>
+              <FormItem className={style['login-input-zj']}>
                 {getFieldDecorator('userName', {
                   rules: [{required: true, message: 'Please input your username!'}],
                 })(
-                  <Input prefix={<Icon type="user" style={{color: '#3581ff'}}/>} placeholder="Username"/>
+                  <Input prefix={<Icon type="user" style={{color: '#3581ff'}}/>} placeholder="Username" style={{height:'100%'}}/>
                 )}
               </FormItem>
-              <FormItem>
+              <FormItem className={style['login-input-zj']}>
                 {getFieldDecorator('password', {
                   rules: [{required: true, message: 'Please input your Password!'}],
                 })(
                   <Input prefix={<Icon type="lock" style={{color: '#3581ff'}}/>} type="password"
-                         style={{backgroud: '#142f77'}}
+                         style={{height:'100%'}}
                          placeholder="Password"/>
                 )}
               </FormItem>
