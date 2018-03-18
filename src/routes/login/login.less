@@ -10,9 +10,8 @@
 }
 
 .login-wrap {
-  width: 23%;
-  padding-top: 23%;
-  height: 0;
+  width: 443px;
+  height: 443px;
   right: 18%;
   position: absolute;
   top: 50%;
@@ -24,23 +23,30 @@
   justify-content: center;
   .login-inner {
     position: absolute;
-    width: 95%;
-    height: 95%;
+    width: 423px;
+    height: 423px;
     top: 50%;
     transform: translateY(-50%);
     background-color: rgba(72, 153, 247, 0.8);
     border-radius: 5px;
     .login-logo {
-      width: 100%;
-      height: 27%;
+      width: 423px;
+      height:115px;
       background: url("../../../public/assets/img/bg/logo.png") no-repeat center center;
-      background-size: 33% 53%;
     }
     form {
       &.login-form-zj{
-        height:67%;
+
         .login-input-zj{
-          height: 22%;
+          height: 58px;
+          margin-bottom: 30px;
+          div{
+            height: 100%;
+          }
+        }
+        .login-input-zj-20{
+          height: 58px;
+          margin-bottom: 20px;
           div{
             height: 100%;
           }
@@ -51,7 +57,28 @@
       }
       input {
         background-color: #142f77;
+        color: #6fa5ff;
+      }
+      .login-noerror-message{
+        display: none;
+      }
+      .login-error-message{
+        background: url("../../../public/assets/img/login-error.png") no-repeat left center;
+        padding-left: 22px;
+        display: block;
+        position: absolute;
+        right:0px;
+        top:0px;
+        font-size: 14px;
+        color: #142f77;
+        cursor: auto;
       }
     }
+  }
+  .login-noButton{
+    background-color: #2c51b6;
+  }
+  .login-yesButton{
+    background-color: #142f77;
   }
 }
